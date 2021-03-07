@@ -1,7 +1,0 @@
-request decoratoru yaz Mesutun yazdığını daha temiz hale çevir önce
-
-Validate decoratorunu ozellestir 
-    2 tane file olcak error.txt success.txt 
-
-    response ok değilse error.txt 'ye "Error " + hata sebebi (server error vs)
-    reponse ok ise "OK " + datanın json hali  -- YAPTIM

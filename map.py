@@ -1,3 +1,5 @@
+# - *- coding: utf- 8 - *-
+
 # map(fonksiyon, iterasyon yapılabilecek veritipi(liste,demet vs...))
 # map fonksiyonun ilk parametresi fonksiyon objesidir.
 # gönderilen fonksiyonu her bir eleman üzerinde uygulayarak sonuçları map objesi olarak dönüyor

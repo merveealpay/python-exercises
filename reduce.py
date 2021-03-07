@@ -1,3 +1,5 @@
+# - *- coding: utf- 8 - *-
+
 #reduce(function, iterasyon yapılabilcek veritipi(liste vb))
  # reduce fonksiyonu değer olarak aldığı fonksiyonu soldan başlayarak listenin ilk 2 elemanına uygular ve daha sonra çıkan sonucu
  #listenin 3.elemanına uygular, bu şekilde devam ederek liste bitince bir tane değer döner
