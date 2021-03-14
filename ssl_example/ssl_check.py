@@ -3,6 +3,29 @@ import ssl
 import datetime
 import requests
 
+#rest API ana temellerini ÇOK İYİİİİİİİİ BİL
+# get post put delete
+#payloadlar fln ne
+
+# domain alan adı satın alan sitelere bak mesela "merve" diyip yazınca merve ile baslayan siteleri git kontrol et
+# inspectle fln
+# sag tikla inspect de networkte kesin bir api'a istek aticaktir - XHR var orda sadece api'lara giden istekleri görebilirsin
+
+# postman ile bu api'a istek at ne var ne yok sonra git onu pythona uygula
+
+# terminalden bir input aldır "hangi kelimeyi iceren domain ariyorsun gibi"
+
+# adamın api'sini yakalarsan
+
+# yaptigin isleri classlastir, yaptigi her adima bak.
+# varsa o sitelerin ssl'ini kontrol ettir
+# bu site aktif ama ssl sert yok gibi seyler yaptır.
+# excele bastır.
+
+# kutuphanenin naptıgını bil, oku.
+# bunu bir proje olarak klasorlestir
+
+
 def ssl_expiry_datetime(hostname, port=443):
     ssl_date_fmt = r'%b %d %H:%M:%S %Y %Z'
     #Create a SSLContext object with default settings.
