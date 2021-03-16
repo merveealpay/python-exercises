@@ -19,7 +19,10 @@ myData = {
 }
 
 r = requests.post(endpoint, data=json.dumps(myData))
+print(json.dumps(myData))
+# dumps fonksiyonu str doner, myData nesnesinden bir json nesnesini temsil eden dize.
+#json.dumps()'a iletilen bir dict olmak zorunda degil, liste de olabilir.
 # print(r.status_code)
 # print(r.content)
 #print(r.cookies)
-print(r.headers)
+#print(r.headers)
