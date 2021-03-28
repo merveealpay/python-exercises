@@ -12,5 +12,5 @@ else:
     print(url[7:])
 
 if status == 200:
-    # ssl check et.
-    print("ssl check ediliyor")
+    # ssl_example check et.
+    print("ssl_example check ediliyor")

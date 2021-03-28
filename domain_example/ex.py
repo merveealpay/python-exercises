@@ -17,4 +17,6 @@ def deneme():
 deneme()
 print(x[1])
 
+ #domainlerin ip adresini bul ve ulkesini bul
+
 
