@@ -16,7 +16,13 @@ def deneme():
             x.append(p.text)
 deneme()
 print(x[1])
+r = request("GET","https://domainbigdata.com/"+x[1])
+y = BeautifulSoup(r.content, "lxml")
+t = y.find("table", attrs={"class": "websiteglobalstats"})
+z = t.find("tr",attrs={"id":"trIP"})
+print(z.findAll("td")[1].text)
+z = t.find("tr",attrs={"id":"trIPGeolocation"})
+print(z.findAll("td")[1].text.strip())
 
- #domainlerin ip adresini bul ve ulkesini bul
 
 
